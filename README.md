@@ -1,5 +1,5 @@
 # DynamicGooleMapsPolygons
-A simple way to create multiple dymics polygins using google maps api
+A simple way to create multiple dynamics polygons using google maps api
 
 # Usage
 ```javascript
