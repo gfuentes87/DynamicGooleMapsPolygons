@@ -41,7 +41,7 @@ function addLine(event){
 
 			var equals = (thisLat == polygonLat && thisLng == polygonLng);
 
-			if(polygon.path.length > 3 ){
+			if(polygon.path.length > 2 ){
 				if(equals){
 					var path = polygon.path;
 					path.push(event.latLng);
@@ -79,4 +79,8 @@ function addLine(event){
 		polygon.path = path.getArray();
 		line.setPath(path);
 	}
+}
+
+function getPolygonCodes(){
+	return Object.keys(PolygonObj);
 }
